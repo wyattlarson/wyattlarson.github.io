@@ -65,3 +65,7 @@ ul {
   list-style-type: none;
     background-color: rgb(58,58,58);    background-color: rgb(58,58,58);
 }
+
+#wireframe {
+    align-content: center;
+}
