@@ -12,6 +12,10 @@
 background-color: rgb(58,58,58);
 }
 
+img {
+    width: 10%;
+}
+
 h1 {
     text-align: center;
     background-color: rgb(58,58,58);
@@ -41,19 +45,19 @@ a {
 }
 
 
-}
-
 #footer {
+    position: relative;
     text-align: center;
     background-color: rgb(58,58,58);
-    color: lightgray
+    color: lightgray;
 }
 
-#footer li {
+li{
     background-color: rgb(58,58,58);
 }
+
 
 ul {
   list-style-type: none;
-
+    background-color: rgb(58,58,58);    background-color: rgb(58,58,58);
 }
