@@ -18,6 +18,11 @@ h1 {
     color: lightgray;
 }
 
+a {
+    color: lightgray;
+    background-color: rgb(58,58,58);
+}
+
 #nav {
     text-align: center;
     color: rgb(58,58,58);
@@ -29,10 +34,26 @@ h1 {
 
 }
 
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+}
+
 #footer {
     text-align: center;
+    background-color: rgb(58,58,58);
+    color: lightgray
+}
+
+#footer li {
+    background-color: rgb(58,58,58);
 }
 
 ul {
   list-style-type: none;
+
 }
