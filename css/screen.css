@@ -1,0 +1,14 @@
+/*change the box model*/
+html *{
+    box-sizing: border-box;
+}
+*:before, *:after{
+    box-sizing: border-box;
+}
+
+p{
+    background-color: red;
+    padding: 16px;
+    border: 1px solid #000000;
+    margin: 30px;
+}
