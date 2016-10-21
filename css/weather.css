@@ -13,9 +13,11 @@ background-color: rgb(58,58,58);
     padding: 0;
 }
 
-img {
-    width: 20%;
+#weather {
+    width:100em;
 }
+
+
 
 h1 {
     text-align: center;
