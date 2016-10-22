@@ -4,8 +4,7 @@
 }
 
 #wrapper {
-    max-width: 1000px;
-    left: 1000px;
+
 }
 
 .navbar {
@@ -17,7 +16,9 @@ background-color: rgb(58,58,58);
     width:10em;
 }
 
-
+img{
+    max-width: 100%;
+}
 
 h1 {
     text-align: center;
@@ -26,6 +27,42 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 500px){
+    .table {
+        display: none;
+    }
+}
+.table {
+    overflow-x: auto;
+    right: 10px;
+    width: 500px;
+    margin:0 auto;
+}
+
+
+.tg  {
+    border-collapse:collapse;border-spacing:0;border-color:#aaa;
+
+}
+
+.tg td {
+    font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;
+}
+
+.tg th {
+    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;
+}
+
+.tg .tg-yw4l{
+    vertical-align:top
+}
+
+.tg .tg-yw4{
+    font-weight:bold;vertical-align:top
+}
+
+
 
 a {
     color: lightgray;
@@ -45,7 +82,7 @@ a {
 }
 
 .input[type=text] {
-    width: 130px;
+    width: max-width: 100%;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -66,6 +103,8 @@ li{
 ul {
   list-style-type: none;
     background-color: rgb(58,58,58);    background-color: rgb(58,58,58);
+    margin-left: 0px;
+    padding: 0px;
 }
 
 #wireframe {
