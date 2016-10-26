@@ -88,10 +88,6 @@ a {
 
 }
 
-.input[type=text] {
-    width: max-width: 100%;
-    transition: width 0.4s ease-in-out;
-}
 
 #mobile {
     max-width: 30%;
