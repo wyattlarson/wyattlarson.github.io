@@ -12,37 +12,21 @@ body{
     padding: 0;
 }
 
-.row {
-    overflow: hidden;
-}
-
 #wrapper {
   display: flex;
-  min-height: 100vh;
   flex-flow: column;
 }
 
-#page-nav,
-main,
-#page-aside{float: left;}
 .row {
   display: flex;
-  flex-flow: 1;
+  flex-flow: row;
 }
 
 #page-nav,
-#page-aside{
-    width:25%;}
-main {
-  flex: 1;
+#page-aside {
+     flex: 0 25%;
 }
 
 main {
-    width:  50%;}
-#page-nav, #page-aside {
-    flex: 0 0 12em;
-}
-
-#page-nav {
-  order: -1;
+    flex: 1 50%;
 }
