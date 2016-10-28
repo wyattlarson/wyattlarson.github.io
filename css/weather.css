@@ -25,6 +25,20 @@ h1 {
     margin: 0;
 }
 
+@media (max-width: 500px){
+    .table {
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+    #tablet{
+        display: none;
+    }
+    #desktop {
+        display: none;
+    }
+}
 
 .table {
     overflow-x: auto;
@@ -103,22 +117,4 @@ ul {
     margin-left: 0px;
     padding: 0px;
 }
-
-/************************************TABLET***************************************************/
-@media (max-width: 425px){
-    .table {
-        display: none;
-    }
-       #desktop, #mobile {
-        display: none;
-}
-
-/*************************************LARGE LAPTOP****************************************/
-
-@media (max-width:1024px){
-    #mobile, #tablet {
-        display: none;
-    }
-
-    }
 
