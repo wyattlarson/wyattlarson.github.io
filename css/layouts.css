@@ -2,9 +2,8 @@ html *{
     box-sizing: border-box;
 }
 
-*:before,
-*:after{
-    box-sizing: border-box;
+header {
+  text-align: center;
 }
 
 body{
@@ -15,18 +14,33 @@ body{
 
 .row {
     overflow: hidden;
+#wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column;
 }
 
 #page-nav,
 main,
 #page-aside{float: left;
+#middle {
+  display: flex;
+  flex-flow: 1;
 }
 
 #page-nav,
 #page-aside{
     width:25%;
+main {
+  flex: 1;
 }
 
 main {
     width:  50%;
+#page-nav, #page-aside {
+    flex: 0 0 12em;
+}
+
+#page-nav {
+  order: -1;
 }
