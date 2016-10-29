@@ -111,11 +111,16 @@ a {
 }
 
 .buttonOrange{
+    padding:6px;
     border:2px solid #f38630;
     background-color:#f38630;
     color: white;
 }
 .button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+.buttonOrange:hover  {
                 background-color:#fafafa;
                 color:#207cca;
 }
