@@ -3,8 +3,8 @@
     font-family: tahoma, genvea, sans-serif;
 }
 
-.wrapper {
-    display:flex;
+#wrapper {
+    display: flex;
     flex-flow: column;
 }
 
@@ -44,6 +44,7 @@ a {
     border-width: 1px;
     border-style: solid;
     text-align: center;
+    width: 100vp;
 }
 
 .table td {
@@ -94,10 +95,6 @@ a {
 .table .infoBold {
     font-weight:bold;
     vertical-align:top;
-}
-
-form {
-    display: flex;
 }
 
 #weather {
@@ -166,10 +163,17 @@ ul {
 /************************************TABLET***************************************************/
 
     @media (min-width: 425px)
-            and (max-width: 768px) {
+            and (max-width: 975px) {
        #desktop, #mobile {
         display: none;
         }
+                .content {
+                    text-align: center;
+                }
+
+                form {
+                    align-content: center;
+                }
     }
 
 
@@ -178,7 +182,7 @@ ul {
 
 
 
-@media (min-width:768px)
+@media (min-width:975px)
         and (max-width: 4000px) {
 
             #mobile, #tablet {
@@ -191,6 +195,12 @@ ul {
 
             a {
                 font-size:20px;
+            }
+
+            .content {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
             }
 
     }
