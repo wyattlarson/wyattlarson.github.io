@@ -123,14 +123,14 @@ a {
 }
 
 #mobile {
-    max-width: 30%;
+    max-width: 200px;
 }
 
 #tablet{
-    max-width: 40%;
+    max-width: 300px;
 }
 #desktop {
-    max-width: 60%;
+    max-width: 300px;
 }
 #footer {
     background-color: rgb(58,58,58);
@@ -200,6 +200,7 @@ ul {
                 .content {
                    display: flex;
                     flex-direction: column;
+                    flex-wrap: wrap;
                 }
 
 
@@ -232,7 +233,6 @@ ul {
 
             .content {
                 flex-direction: row;
-                flex-wrap: wrap;
                 justify-content: space-around;
             }
     }
