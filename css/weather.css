@@ -152,10 +152,18 @@ ul {
             }
 
 /************************************MOBILE*************************************************/
-@media (max-width: 425px){
+@media (max-width: 426px){
 
     #desktop, #tablet {
         display: none;
+    }
+
+    .tableResize {
+        display: none;
+    }
+
+    .tableMobile {
+        align-content: center;
     }
 
      .content {
@@ -170,11 +178,14 @@ ul {
 
 /************************************TABLET***************************************************/
 
-    @media (min-width: 425px)
+    @media (min-width: 426px)
             and (max-width: 975px) {
        #desktop, #mobile {
         display: none;
         }
+                .tableMobile {
+                    display: none;
+                }
                 .content {
                     text-align: center;
                 }
@@ -196,6 +207,10 @@ ul {
             #mobile, #tablet {
         display: none;
         }
+
+            .tableMobile {
+                display: none;
+            }
 
             h1 {
                 font-size: 55px;
