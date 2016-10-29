@@ -171,7 +171,13 @@ ul {
     .tableMobile {
         align-content: center;
     }
+    .blue .table {
+        background-color: #207cca;
+    }
 
+    .orange .table{
+        background-color: #f38630;
+    }
      .content {
                     text-align: center;
                 }
