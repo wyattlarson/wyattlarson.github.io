@@ -33,7 +33,7 @@ a {
 .content {
     display: flex;
    flex-direction: column;
-    flex; 1;
+    flex: 1;
     align-items: center;
 }
 
@@ -204,9 +204,7 @@ ul {
                     flex-direction: column;
                 }
 
-                .text {
-                    flex-flow: column-reverse;
-                }
+
     }
 
 
