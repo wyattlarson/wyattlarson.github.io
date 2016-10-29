@@ -169,6 +169,7 @@ ul {
 
     .tableMobile {
         align-content: center;
+        order: 2;
     }
     .blue .table {
         background-color: #207cca;
@@ -199,11 +200,12 @@ ul {
                     display: none;
                 }
                 .content {
-                    text-align: center;
+                   display: flex;
+                    flex-direction: column;
                 }
 
-                form {
-                    align-content: center;
+                .text {
+                    flex-flow: column-reverse;
                 }
     }
 
@@ -237,6 +239,5 @@ ul {
                 flex-wrap: wrap;
                 justify-content: space-around;
             }
-
     }
 
