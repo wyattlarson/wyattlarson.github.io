@@ -6,20 +6,6 @@
 .wrapper {
     display:flex;
     flex-flow: column;
-    min-height: 100vh;
-}
-
-.navbar {
-    text-align: center;
-}
-
-
-.content {
-    display: flex;
-    flex-flow: column;
-    flex; 1;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 h1 {
@@ -29,74 +15,14 @@ h1 {
     margin: 0;
 }
 
-.table  {
-    border-collapse:collapse;
-    border-spacing:0;
-    border-color:#aaa;
+
+.navbar {
     text-align: center;
 }
 
-.table td {
-    font-family:Arial, sans-serif;
-    font-size:16px;
-    padding:10px 5px;
-    border-style:solid;
-    border-width:1px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:#aaa;
-    color:#333;
-    background-color:#fff;
-}
-
-.table th {
-    font-family:Arial, sans-serif;
-    font-size:16px;
-    font-weight:normal;
-    padding:10px 5px;
-    border-style:solid;
-    border-width:1px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:#aaa;
-    color:#fff;
-}
-
-.table td {
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    padding:10px 5px;
-    border-style:solid;
-    border-width:1px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:#aaa;
-    color:#333;
-    background-color:#fff;
-}
-
-.table th {
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    font-weight:normal;
-    padding:10px 5px;
-    border-style:solid;
-    border-width:1px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:#aaa;
-    color:#fff;
-    background-color:#f38630;
-}
-
-
-.table .info {
-    vertical-align:top
-}
-
-.table .infoBold {
-    font-weight:bold;
-    vertical-align:top;
+#nav {
+    color: rgb(58,58,58);
+    background-color: rgb(58,58,58);
 }
 
 a {
@@ -104,9 +30,96 @@ a {
     background-color: rgb(58,58,58);
 }
 
-#nav {
-    color: rgb(58,58,58);
-    background-color: rgb(58,58,58);
+.content {
+    display: flex;
+   flex-direction: column;
+    flex; 1;
+    align-items: center;
+}
+
+.table  {
+    display: flex;
+    border-collapse:collapse;
+    border-spacing:0;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.table td {
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    padding:10px 5px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#aaa;
+    color:#333;
+    background-color:#fff;
+}
+
+.table th {
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    padding:10px 5px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#aaa;
+    color:#fff;
+}
+
+.table td {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#aaa;
+    color:#333;
+    background-color:#fff;
+}
+
+.table th {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    padding:10px 5px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#aaa;
+    color:#fff;
+    background-color:#f38630;
+}
+
+.table .infoBold {
+    font-weight:bold;
+    vertical-align:top;
+}
+
+form {
+    display: flex;
+}
+
+#weather {
+        padding:8px 15px;
+        background: rgba(50, 50, 50, 0.2);
+        border: 0px solid #dbdbdb;
+}
+.button {
+        padding:6px;
+        border:2px solid #207cca;
+        background-color:#207cca;
+        color:#fafafa;
+}
+
+.buttonOrange{
+    border:2px solid #f38630;
+    background-color:#f38630;
+    color: white;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
 }
 
 #mobile {
@@ -137,11 +150,13 @@ ul {
     padding: 0px;
 }
 
+.blue th {
+                background-color: #207cca;
+            }
+
 /************************************MOBILE*************************************************/
 @media (max-width: 425px){
-    .table {
-        display: none;
-    }
+
     #desktop, #tablet {
         display: none;
     }
@@ -156,7 +171,12 @@ ul {
         display: none;
         }
     }
-/*************************************LARGE LAPTOP****************************************/
+
+
+
+/************************************* LAPTOP****************************************/
+
+
 
 @media (min-width:768px)
         and (max-width: 4000px) {
@@ -169,5 +189,9 @@ ul {
                 font-size: 55px;
             }
 
-            a {font-size:20px;}
+            a {
+                font-size:20px;
+            }
+
     }
+
