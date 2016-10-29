@@ -39,7 +39,6 @@ a {
 
 
 .table  {
-    display: flex;
     border-collapse:collapse;
     border-spacing:0;
     border-width: 1px;
@@ -173,6 +172,7 @@ ul {
     }
     .blue .table {
         background-color: #207cca;
+        align-content: center;
     }
 
     .orange .table{
