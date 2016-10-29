@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Franklin | wyattlarson.github.com</title>
     <link rel="stylesheet" type="text/css" href="../css/weather.css">
+    <script type="text/javascript">
+
+    function() {
+    var dialog = document.getElementById('window');
+    document.getElementById('show').onclick = function() {
+        dialog.show();
+    };
+    document.getElementById('exit').onclick = function() {
+        dialog.close();
+    };
+}();
+    </script>
+
 </head>
 <body>
     <div id="wrapper">
@@ -87,6 +100,7 @@
                         <td class="infoBold">66°</td>
                     </tr>
                 </table>
+
                </section>
             <section class="text">
             <p>Precipitation: 0%</p>

@@ -157,6 +157,14 @@ ul {
     #desktop, #tablet {
         display: none;
     }
+
+     .content {
+                    text-align: center;
+                }
+
+                form {
+                    align-content: center;
+                }
 }
 
 
