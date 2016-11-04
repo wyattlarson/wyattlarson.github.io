@@ -34,17 +34,40 @@
                         <li>iPhone 7: 401 PPI</li>
                         <li>Nexus 6p: 518 PPI</li>
                     </ul>
-            <h4>How to Determine the PPI of Any Screen</h4>
+            <h4>What PPI do our eyes recognize?</h4>
+                    <p>        Around 300 PPI. It is debated from a range of 287 – 477 PPI. Beyond this our eyes cannot even appreciate much of pixel density our displays are giving us. This is usually what manufacturers are referring to when they advertise their display as a “retina         display.” Meaning the screen is at least equivalent to what our eyes/retinas can perceive. This term seems to be abused though. PPI has become a tech specification that is becoming irrelevant to progress in if we cannot even see  the differences. This is especially true for mobile devices with such small screens.
+                    </p>
+            <h5>How do images look on different PPI screens?</h5>
+                    <p>
+                        Your computer sees an image that is 100 x 100 pixels, and displays the image on your screen. Lets    say your computer screen had a PPI of 100. So a 100 pixel image would take up one inch on your      screen. It is as simple as that. But lets say you were using a Nexus 6P with a PPI of 518. A 100 x 100 pixel image would be around  1/5th of an inch, way too small to see or read. This is where the scrset attribute and the (x) descriptor comes into play to help achieve correct sized      images for all different types of screen resolutions.
+                    </p><br><br>
+            <img alt="Website" src="images/dpr.png">
+            <p id="link"><a href="https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset#the-device-pixel-ratio-use-case">Link to Website</a></p>
+
+            <h6>Device Pixel Ratio (x) - What to Know</h6>
+                    <p>Devices with high PPI also have a unique DPR. DPR scales down how the CSS reacts to a device’s PPI. So back to the Nexus 6P. It has a screen resolution 2560 by 1440 pixels and a DPR of 3.5. It’s physical screen is 3.5 times the size of the CSS pixels or logical pixels. A DPR of 3.5 is very high. We can use this  as a way to almost media query what image we load by the device pixel ratio the device has.  There is no point loading a huge image to a device that can’t see it, and you don’t want to load a small image on a device with a huge resolution which could cause it to become pixelated.<br><br>When deciding what pixel resolution to be including on our website, we need to balance two things: picture quality and page load times. We learned how to make our websites responsive to the viewport size. By choosing which images appear by the DPR of the device. This makes our site much more responsive and customized for each and every individual user. This is just one way to make sure our images are the right size and quality for each device, but not having to plug in an image for every single device that exists. This way we just throw in a couple different variations for different DPR, and voila, responsive images.
+
+</p>
+
+
+
+
 
 
         </main>
         <aside id="page-aside">
-            <h2>Additionally</h2>
-            <p>Nam tamen vidisse nostrud, dolore excepteur id coniunctione, iudicem donoster probant, aut id ipsum dolore culpa ex de fugiat doctrina offendit itaelit deserunt ex aute nulla ita eu eiusmod domesticarum, a fugiat laboris.Varias ut pariatur quo aut legam amet se nostrud, ipsum ingeniis e philosophari,voluptate dolore malis incurreret dolor te noster quamquam ubi nostrud in namesse quorum ubi aliquip, cupidatat minim summis laboris culpa hic ubi tempor eupossumus.</p>
+            <p>The device-pixel-ratio Use Case</p>
+            <p>"The srcset attribute takes a comma-separated list of image URLs, each with an x descriptor stating the device-pixel-ratio that that file is intended for.<br><br>The src is there for browsers that don’t understand srcset. The alt, of course, is included for browsers that don’t render images at all. One element and three attributes gets us an image that looks crisp on high-resolution devices and efficiently degrades all the way down to text. Not too shabby!"</p>
         </aside>
         </div>
         <footer id="page-footer">
-            <p>&copy; 2016</p>
+             <ul id="trial">
+                <li><a href="https://wyattlarson.github.io" title="Homepage">Homepage</a></li>
+                <li>Wyatt Larson
+                    <li>Last Updated: October 30th, 2016&copy;
+                    </li>
+            </ul>
+
         </footer>
     </div>
 
