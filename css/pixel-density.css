@@ -24,6 +24,12 @@ body{
     align-content: space-around;
 }
 
+#powerpoint{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 #link {
     text-align: center;
 }
@@ -54,3 +60,4 @@ main {
 img {
     max-width: 100%;
 }
+
