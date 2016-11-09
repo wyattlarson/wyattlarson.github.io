@@ -1,4 +1,4 @@
-@font-face{font-family:geometria_lightlight;font-style:normal;font-weight:400;src:url(/fonts/geometria-light-webfont.eot?#iefix) format("embedded-opentype"),
+@font-face{font-family:geometria-light;font-style:normal;font-weight:400;src:url(/fonts/geometria-light-webfont.eot?#iefix) format("embedded-opentype"),
 url(/fonts/geometria-light-webfont.woff2) format("woff2"),
 url(/fonts/geometria-light-webfont.woff) format("woff"),
 url(/fonts/geometria-light-webfont.ttf) format("truetype"),
@@ -14,11 +14,11 @@ html body {
     overflow-x: hidden;
     font-family: geometria_lightlight, Helvetica, Arial, sans-serif;
     font-size: 16px;
-    position: relative
+    position: relative;
 }
 
 
-div#header-bar {
+#header-bar {
      position: absolute;
   top: 0;
   left: 0;
@@ -27,23 +27,23 @@ div#header-bar {
   text-align: left;
 }
 
-div#header-bar div.container {
+#header-bar div.container {
      background: #fff;
   height: 100%;
   padding: 15px;
   text-align: right;
 }
 
-div#header-bar div.container button {
+#header-bar div.container button {
      margin-left: 20px;
 }
 
-div#header-bar button {
+#header-bar button {
     border-color: #2fba7e;
   background: #43dd9e;
 }
 
-div#header-bar a.btn {
+#header-bar a.btn {
      color: #2fba7e;
 }
 
@@ -55,8 +55,9 @@ html body div.jumbotron div.container h1 {
     font-size: 48px;
     margin-bottom: 25px;
     margin-top: 0;
-    text-align: center
+    text-align: center;
 }
+
 .content h2,
 div.container h2,
 html body div.jumbotron div.container h2 {
@@ -65,13 +66,15 @@ html body div.jumbotron div.container h2 {
     font-size: 30px;
     margin-bottom: 25px;
     margin-top: 0;
-    text-align: center
+    text-align: center;
 }
+
 div.section {
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center
 }
+
 #about {
     background: #fff;
     color: #888;
@@ -82,24 +85,29 @@ div.section {
     position: relative;
     width: 100%
 }
-div#about span img {
+
+#about span img {
     width: 60px;
     display: inline-block;
     margin-top: -24px;
     margin-right: 2px
 }
-div#about h1 {
+
+#about h1 {
     display: inline-block;
     letter-spacing: 2px
 }
-div#logo-container,
-div.formwrap {
+
+#logo-container,
+.formwrap {
     text-align: center
 }
+
 .form {
     text-align: center;
     padding: 20px
 }
+
 .form a.emailButton {
     background: #F15856;
     border: transparent;
@@ -108,10 +116,12 @@ div.formwrap {
     width: 150px;
     border-radius: 0
 }
+
 .form .emailButton:hover {
     text-decoration: none;
     background: #F96B6B
 }
+
 #learn-more {
     bottom: 10px;
     color: #555;
@@ -122,49 +132,62 @@ div.formwrap {
     text-align: center;
     width: 100%
 }
+
 #learn-more div {
     margin: 0 auto;
     position: relative;
     width: 200px
 }
+
 #learn-more i {
     font-size: 1.5em;
     position: relative;
     top: 3px
 }
+
 #learn-more:hover {
     color: #F15856
 }
+
 div#solution {
     background: #F15856;
     color: #fff
 }
+
 div#solution div#waveImg img {
     width: 80px
 }
+
 div#solution div#waveImg {
     margin-bottom: 40px
 }
+
 div#solution h1 {
     color: #fff
 }
+
 div#imgdiv {
     background: #fff
 }
+
 div#imgdiv div.row img {
     max-width: 100%
 }
+
 div#me img {
     width: 250px;
     max-width: 100%;
     margin-bottom: 20px
 }
+
 div#me p {
     margin-bottom: 20px
 }
+
 div#bottom-signup {
     background: #fff;
 }
+
 footer {
     background: #282B3D;
     padding-top: 100px;
@@ -172,45 +195,58 @@ footer {
     color: #fff;
     text-align: center
 }
+
 footer ul {
     text-align: center;
     list-style-type: none;
     padding: 0;
     margin-bottom: 50px
 }
+
 footer ul li {
     display: inline;
     margin: 0 20px
 }
+
 footer ul li a i {
     font-size: 30px;
     color: #fff
 }
+
 footer ul li a i:hover {
     color: #e2e2e2
 }
+
 footer p {
     margin-top: 50px;
     font-size: 12px;
     margin-bottom: 0
 }
+
 footer div#donateButton a img,
 footer div#donateButton input[type=image] {
     width: 200px;
     margin-top: 10px
 }
+
 footer ul#share li>div {
     display: inline-block
 }
+
 footer ul#share li div.lidiv {
     height: 70px;
     width: 60px;
     position: relative
 }
+
 footer ul#share li div.lidiv>div {
     position: absolute;
     left: 0
 }
+
+/*-----------------------------Media Queries-------------------------*/
+
+/*------------Mobile-------------*/
 @media (min-width: 768px) {
     div#logo-container {
         text-align: center;
@@ -229,6 +265,8 @@ footer ul#share li div.lidiv>div {
         font-size: 30px
     }
 }
+
+/*---------------Desktop and Tablet-------------*/
 @media (max-width: 767px) {
 
     #about {
