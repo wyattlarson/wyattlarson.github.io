@@ -1,52 +1,51 @@
 html *{
     box-sizing: border-box;
 }
-
 header {
   text-align: center;
 }
-
 body{
     font: 20px "times new roman", times, serif;
     margin: 0;
     padding: 0;
 }
-
 #wrapper {
     display: flex;
     flex-flow: column;
     background-color: #f9fbff;
 }
-
 .row {
     display: flex;
     flex-flow: row;
     align-content: space-around;
 }
-
 #powerpoint{
     text-align: center;
 }
-
 #link {
     text-align: center;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-size: 35px;
     text-align: center;
 }
-
 main {
     width: 1000%;
     background-color: #f9fbff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
-
+#video{
+    display: flex;
+    max-width: 100%;
+    margin-left, right: 50px;
+}
 #page-nav {
     width: 50%;
     background-color: #e0ecff;
 }
-
 #page-aside {
     background-color: #e0ecff;
 }
@@ -54,8 +53,9 @@ main {
     display: flex;
     align-items: center;
 }
-
 img {
     max-width: 100%;
 }
-
+#code{
+    text-align: left;
+}
