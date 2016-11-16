@@ -43,7 +43,6 @@ main {
 #video{
     display: flex;
     max-width: 100%;
-    margin left, right: 50px;
 }
 #page-nav {
     width: 50%;
