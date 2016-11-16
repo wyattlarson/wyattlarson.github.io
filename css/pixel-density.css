@@ -59,6 +59,6 @@ main {
 img {
     max-width: 100%;
 }
-#code{
+.code{
     text-align: left;
 }
