@@ -40,6 +40,7 @@ $(function () {
                 $("#feelslike").html("Feels like it is: " + feelslike + "°");
                 $("#wind").html("Wind Speed: " + wind + " mph");
                 $("#precip").html("Precipitation: " + precip + "%");
+                $("title").html(location + ", " + state + " | Weather Home");
               }
 
 
