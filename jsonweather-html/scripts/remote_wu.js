@@ -30,12 +30,16 @@ $(function () {
                 var temp_f = Math.round(data['current_observation']['temp_f']);
                 var weather = data['current_observation']['weather'];
                 var feelslike = Math.round(data['current_observation']['feelslike_f']);
+                var wind = Math.round(data['current_observation']['wind_mph']);
+                var precip = Math.round(data['current_observation']['precip_today_in']);
                 var state = data['location']['state'];
                 console.log(location + ", " + temp_f + ": " + state);
                 $("#cityDisplay").html(location + ", " + state);
                 $("#currentTemp").html(temp_f + "°");
                 $("#summary").html(weather);
                 $("#feelslike").html("Feels like it is: " + feelslike + "°");
+                $("#wind").html("Wind Speed: " + wind + " mph");
+                $("#precip").html("Precipitation: " + precip + "%");
               }
 
 
