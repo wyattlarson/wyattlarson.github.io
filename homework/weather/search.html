@@ -15,7 +15,7 @@
         </section>
         <main class="content">
             <section class="basicInfo">
-                <h2>City</h2>
+                <h2 id="city">City</h2>
                 <h3>Weather Summary</h3>
                 <img alt="Sunny Icon" src="../images/clear-day.png">
                 <br>
@@ -156,12 +156,14 @@
                 </div>
                </section>
             <div>
+                <br><form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+</form><input id="query" type="search" name="query"  placeholder="Search..">
+                         <input id="send" class="buttonOrange" type="button" value="Search" onclick="getData()">
                 <p id="precipitation">Precipitation: %</p>
                 <p id="wind">Wind: </p>
                 <p id="zip-code ">Zip Code: </p>
                 <form>
-                    <input id="weather" type="text" name="search" placeholder="Search..">
-                         <input class="buttonOrange" type="button" value="Search">
+
                 </form>
                 <br>
                 <br>
@@ -172,6 +174,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="../modules/modules.js"></script>
+    <script src="../modules/remote_wu.js"></script>
     <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
