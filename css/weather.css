@@ -212,11 +212,6 @@ ul {
                 .tableMobile {
                     display: none;
                 }
-                .content {
-                   display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                }
     }
 /************************************* LAPTOP****************************************/
 @media (min-width:975px)
