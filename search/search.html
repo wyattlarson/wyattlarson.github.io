@@ -1,2 +1,41 @@
+<!doctype html>
+<html lang="en">
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8">
+    <title>Search Weather</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="search-style.css" media="screen">
+  </head>
+  <!-- *********************************************
+* Who Did You Collaborate With On This Activity?
+* 1. Josten
+* 2. Nicole Bunch
+* 3. Kaio Doxey
+* 4. Austin Smith
+* 5.
+* ******************************************** -->
+
+  <body>
+    <div id="wrapper">
+      <header id="page-header">
+
+      <main id="page-main">
+        <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+  <input type="search" name="query" id="query">
+  <input type="submit" name="submit" value="Search" id="send">
+</form>
+        <section id="searchResults">
+  <h2>Search Results</h2>
+</section>
+      </main>
+      <footer id="page-footer">
+
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="search.js"></script>
+    </div>
+  </body>
+
+</html>
