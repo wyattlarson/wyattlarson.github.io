@@ -1,7 +1,3 @@
-  // A function for changing a string to TitleCase
-function toTitleCase(str){
-return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
-}
 
 // Get weather data from wunderground.com
 function getData(input) {
@@ -25,6 +21,10 @@ function getData(input) {
   });
 }
 
+
+
+
+
 // Intercept the menu link clicks
 $("#page-nav").on("click", "a", function (evt) {
   evt.preventDefault();
@@ -32,7 +32,7 @@ $("#page-nav").on("click", "a", function (evt) {
   var jsonCity = $(this).text(); // Franklin, etc...
   console.log(jsonCity);
   $.ajax({
-    url: "/menu-activity/scripts/weather.json"
+    url: "scripts/weather.json"
     , dataType: "json"
     , success: function (data) {
       console.log(data);
@@ -45,3 +45,7 @@ $("#page-nav").on("click", "a", function (evt) {
 });
 
 
+  // A function for changing a string to TitleCase
+function toTitleCase(str){
+return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
