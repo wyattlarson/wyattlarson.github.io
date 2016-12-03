@@ -73,7 +73,7 @@ $("#searchResults").on("click", "a", function (evt) {
   console.log(jsonCity);
   $.ajax({
 
-    url: "http://api.wunderground.com/api/11fc9ae6852b90d4/geolookup/conditions/q/"
+    url: "https://api.wunderground.com/api/11fc9ae6852b90d4/geolookup/conditions/q/"
     + jsonCity + ".json"
     , dataType: "json"
     , success: function (data) {
