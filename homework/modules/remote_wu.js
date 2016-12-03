@@ -1,59 +1,99 @@
-// Current Location Scripts
-$(function () {
-
-  var status = $('#status');
-
-  $('#query').keyup(function(){
+$('#query').keyup(function(){
   // All code will be inside of this block
-      var value = $('#query').val();
+    var value = $('#query').val();
       var rExp = new RegExp(value, "i");
     $.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
     console.log(data);
        // Begin building output
     var output = '<ol>';
-    $.each(data.RESULTS, function(key, val, lat, lon) {
+    $.each(data.RESULTS, function(key, val) {
       if (val.name.search(rExp) != -1) {
         output += '<li>';
         output += '<a href="http://www.wunderground.com' + val.l + '" title="See results for ' + val.name + '">' + val.name + '</a>';
         output += '</li>';
-           var lat= (data['RESULTS'][0]['lat']);
-        var lon = (data['RESULTS'][0]['lon']);
-        console.log(lat +',' + lon);
       }
     }); // end each
     output += '</ol>';
     $("#searchResults").html(output); // send results to the page
-    }); // end getJSON
+  }); // end getJSON
 }); // end keyup
 
+
+// Get weather data from wunderground.com
+function getData(input) {
   // Get the data from the wunderground API
-  function getData(lat, lon){
+  $.ajax({
+    url: "http://api.wunderground.com/api/11fc9ae6852b90d4/geolookup/conditions/q/"
+    + input + ".json"
+    , dataType: "jsonp"
+    , success: function (data) {
+      console.log(data);
+      var location = data.location.city + ', ' + data.location.state;
+      var temp_f = data.current_observation.temp_f;
+      var precip = data.current_observation.precip_today_in ;
+      var wind = data.current_observation.wind_mph;
+
+
+
+      console.log('Location is: ' + location);
+      console.log('Temp is: ' + temp_f);
+      $("#city").text(location);
+      $("title").html(location + " | Weather Center");
+      $(".currentTemp").html(Math.round(temp_f) + '°');
+      $("#precipitation").html("Precipitation: " + precip + " inches");
+      $("#wind").html("Wind: " + wind + " mph")
+
+      $("#summary").text(toTitleCase(data.current_observation.icon));
+      $("#cover").fadeOut(250);
+    }
+  });
     $.ajax({
-            url : "https://api.wunderground.com/api/11fc9ae6852b90d4/geolookup/conditions/q/"+lat+','+lon+".json",
-            dataType : "jsonp",
-            success : function(data) {
+       url:  "http://api.wunderground.com/api/11fc9ae6852b90d4/forecast/q/"
+    + input + ".json", dataType: "jsonp"
+    , success: function (temp) {
+        console.log(temp);
 
-                var location = data['location']['city'];
-                var temp_f = Math.round(data['current_observation']['temp_f']);
-                var weather = data['current_observation']['weather'];
-                var feelslike = Math.round(data['current_observation']['feelslike_f']);
-                var wind = Math.round(data['current_observation']['wind_mph']);
-                var precip = Math.round(data['current_observation']['precip_today_in']);
-                var state = data['location']['state'];
-                console.log(location + ", " + temp_f + ": " + state);
-                $("#city").html(location + ", " + state);
-                $("#currentTemp").html(temp_f + "°");
-                $("#summary").html(weather);
-                $("#feelslike").html("Feels like it is: " + feelslike + "°");
-                $("#wind").html("Wind Speed: " + wind + " mph");
-                $("#precip").html("Precipitation: " + precip + " inches");
-                $("title").html(location + ", " + state + " | Weather Home");
-              }
+        var high = temp.forecast.simpleforecast.forecastday["0"].high.fahrenheit;
+        var low = temp.forecast.simpleforecast.forecastday["0"].low.fahrenheit;
+        $("#high").html("High: " + high);
+        $("#low").html("Low: " + low);
+    }
+    })
+}
 
 
 
-    });
-       $("#cover").fadeOut(250);
-  };
 
+
+// Intercept the menu link clicks
+$("#searchResults").on("click", "a", function (evt) {
+  evt.preventDefault();
+  // With the text value get the needed value from the weather.json file
+  var jsonCity = $(this).text(); // Franklin, etc...
+  console.log(jsonCity);
+  $.ajax({
+
+    url: "http://api.wunderground.com/api/11fc9ae6852b90d4/geolookup/conditions/q/"
+    + jsonCity + ".json"
+    , dataType: "json"
+    , success: function (data) {
+      console.log(data);
+      console.log(data[jsonCity]);
+      var zip = data['location']['zip'];
+      console.log(zip);
+      getData(zip);
+       $("#searchResults").fadeOut(250);
+    }
+  });
 });
+
+
+ $(document).ready( function() {
+     $('#send').on('click', getData());
+ });
+
+
+  // A function for changing a string to TitleCase
+function toTitleCase(str){
+return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}

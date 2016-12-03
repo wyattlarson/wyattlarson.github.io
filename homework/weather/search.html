@@ -4,9 +4,17 @@
     <meta charset="utf-8">
     <meta name="author" content="Wyatt Larson">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Search Weather | wyattlarson.github.com</title>
+    <title id="title">Search Weather | wyattlarson.github.com</title>
     <link rel="stylesheet" type="text/css" href="../../css/weather.css">
 </head>
+    <!-- *********************************************
+* Who Did You Collaborate With On This Activity?
+* 1. Josten
+* 2. Nicole Bunch
+* 3. Kaio Doxey
+* 4. Austin Smith
+* 5.
+* ******************************************** -->
 <body>
     <div id="wrapper">
         <section class="navbar">
@@ -16,152 +24,22 @@
         <main class="content">
             <section class="basicInfo">
                 <h2 id="city">City</h2>
-                <h3>Weather Summary</h3>
+                <h3 id="summary">Weather Summary</h3>
                 <img alt="Sunny Icon" src="../images/clear-day.png">
                 <br>
-                <h4>High: Low:</h4>
-                <div class="tableResize">
-                <table class="table">
-                    <tr>
-                        <th class="info">12am</th>
-                        <th class="info">1am</th>
-                        <th class="info">2am</th>
-                        <th class="info">3am</th>
-                        <th class="info">4am</th>
-                        <th class="info">5am</th>
-                        <th class="info">6am</th>
-                        <th class="info">7am</th>
-                        <th class="info">8am</th>
-                        <th class="info">9am</th>
-                        <th class="info">10am</th>
-                        <th class="info">11am</th>
-                    </tr>
-                    <tr>
-                        <td class="12am">67°</td>
-                        <td class="1am">67°</td>
-                        <td class="2am">69°</td>
-                        <td class="3am">69°</td>
-                        <td class="4am">69°</td>
-                        <td class="5am">70°</td>
-                        <td class="6am">69°</td>
-                        <td class="7am">72°</td>
-                        <td class="8am">74°</td>
-                        <td class="9am">77°</td>
-                        <td class="10am">79°</td>
-                        <td class="11am">81°</td>
-                    </tr>
-                </table>
-                <table class="table">
-                    <tr>
-                        <th class="info">12pm</th>
-                        <th class="info">1pm</th>
-                        <th class="info">2pm</th>
-                        <th class="info">3pm</th>
-                        <th class="info">4pm</th>
-                        <th class="info">5pm</th>
-                        <th class="info">6pm</th>
-                        <th class="info">7pm</th>
-                        <th class="info">8pm</th>
-                        <th class="info">9pm</th>
-                        <th class="info">10pm</th>
-                        <th class="info">11pm</th>
-                    </tr>
-                    <tr>
-                        <td class="12pm">84°</td>
-                        <td class="1pm">86°</td>
-                        <td class="2pm">88°</td>
-                        <td class="3pm">90°</td>
-                        <td class="4pm">90°</td>
-                        <td class="5pm">85°</td>
-                        <td class="6pm">83°</td>
-                        <td class="7pm">79°</td>
-                        <td class="8pm">74°</td>
-                        <td class="9pm">70°</td>
-                        <td class="10pm">68°</td>
-                        <td class="11pm">66°</td>
-                    </tr>
-                    </table></div>
-                <div class="orange">
-                    <div class="tableMobile">
-                        <table class="table">
-                    <tr>
-                        <th class="info">12am</th>
-                        <th class="info">1am</th>
-                        <th class="info">2am</th>
-                        <th class="info">3am</th>
-                        <th class="info">4am</th>
-                        <th class="info">5am</th>
-                    </tr>
-                    <tr>
-                        <td class="12am">67°</td>
-                        <td class="1am">67°</td>
-                        <td class="2am">69°</td>
-                        <td class="3am">69°</td>
-                        <td class="4am">69°</td>
-                        <td class="5am">70°</td>
-                    </tr>
-                </table>
-                        <table class="table">
-                        <tr>
-                      <th class="info">6am</th>
-                        <th class="info">7am</th>
-                        <th class="info">8am</th>
-                        <th class="info">9am</th>
-                        <th class="info">10am</th>
-                        <th class="info">11am</th>
-                    </tr>
-                    <tr>
-                        <td class="6am">69°</td>
-                        <td class="7am">72°</td>
-                        <td class="8am">74°</td>
-                        <td class="9am">77°</td>
-                        <td class="10am">79°</td>
-                        <td class="11am">81°</td>
-                    </tr>
-                </table>
-                        <table class="table">
-                            <tr>
-                        <th class="info">12pm</th>
-                        <th class="info">1pm</th>
-                        <th class="info">2pm</th>
-                        <th class="info">3pm</th>
-                        <th class="info">4pm</th>
-                        <th class="info">5pm</th>
-                    </tr>
-                            <tr>
-                        <td class="12pm">84°</td>
-                        <td class="1pm">86°</td>
-                        <td class="2pm">88°</td>
-                        <td class="3pm">90°</td>
-                        <td class="4pm">90°</td>
-                        <td class="5pm">85°</td></tr>
-                            <tr>
-                        <th class="info">6pm</th>
-                        <th class="info">7pm</th>
-                        <th class="info">8pm</th>
-                        <th class="info">9pm</th>
-                        <th class="info">10pm</th>
-                        <th class="info">11pm</th>
-                    </tr>
-                            <tr>
-                        <td class="6pm">83°</td>
-                        <td class="7pm">79°</td>
-                        <td class="8pm">74°</td>
-                        <td class="9pm">70°</td>
-                        <td class="10pm">68°</td>
-                        <td class="11pm">66°</td>
-                    </tr>
-                        </table>
-                    </div>
-                </div>
+                <h4 class="currentTemp">Current Temp: </h4>
+                <h4 id="high">High: </h4>
+                <h4 id="low">Low: </h4>
+
                </section>
             <div>
                 <br><form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
 </form><input id="query" type="search" name="query"  placeholder="Search..">
-                         <input id="send" class="buttonOrange" type="button" value="Search" onclick="getData()">
+                         <input id="send" class="buttonOrange" type="button" value="Search">
+
                 <p id="precipitation">Precipitation: %</p>
                 <p id="wind">Wind: </p>
-                <p id="zip-code ">Zip Code: </p>
+                <section id="searchResults" class="">
                 <form>
 
                 </form>
