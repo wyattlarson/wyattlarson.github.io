@@ -55,8 +55,8 @@ function getData(input) {
 
         var high = temp.forecast.simpleforecast.forecastday["0"].high.fahrenheit;
         var low = temp.forecast.simpleforecast.forecastday["0"].low.fahrenheit;
-        $("#high").html("High: " + high);
-        $("#low").html("Low: " + low);
+        $("#high").html("High: " + high +"°");
+        $("#low").html("Low: " + low + "°");
     }
     })
 }
