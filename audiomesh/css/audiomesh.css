@@ -27,11 +27,17 @@ html body {
 /*  height: px;*/
   text-align: right;
     background-color: #fff;
+    opacity: .94;
+}
+#header-bar a {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 a {
     text-decoration: none;
 }
+
 
 #header-bar div.container {
      background: #fff;
