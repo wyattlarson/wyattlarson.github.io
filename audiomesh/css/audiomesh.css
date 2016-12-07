@@ -12,24 +12,25 @@ html {
 html body {
     background-color: #f2f2f2;
     height: 100%;
+    width: 100%;
     overflow-x: hidden;
     font-family: geometria_light, Helvetica, Arial, sans-serif;
     font-size: 16px;
     position: relative;
-    padding-left: 3%;
-    padding-right:3%;
 }
+
 
 
 #header-bar {
      position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-/*  height: px;*/
-  text-align: right;
+  width:100%;
+  height: 55px;
+  text-align: center;
     background-color: #fff;
     opacity: .94;
+    z-index: 1;
+    font-size: 35px;
 }
 #header-bar a {
     padding-left: 10px;
@@ -40,12 +41,15 @@ a {
     text-decoration: none;
 }
 
+p{
+    padding: 0 10% 0 10%
+}
 
 #header-bar div.container {
      background: #fff;
   height: 100%;
   padding: 1px;
-  text-align: left;
+
 }
 
 #header-bar div.container button {
@@ -83,10 +87,22 @@ html body div.jumbotron div.container h2 {
     text-align: center;
 }
 
+#faqsh1{
+    margin-top: 75px;
+}
+
+.center{
+    text-align: center;
+}
+
+.row{
+    line-height: 3;
+}
+
 div.section {
     padding-top: 100px;
     padding-bottom: 100px;
-    text-align: center
+    text-align: center;
 }
 
 #about {
@@ -95,7 +111,7 @@ div.section {
   min-height: 600px;
     height: 100vh;
     margin-bottom: 0;
-    padding: 100px 0 0;
+    padding: 100px 0  0;
     position: relative;
     width: 100%
 }
@@ -202,7 +218,7 @@ div#bottom-signup {
     background: #fff;
 }
 
-footer {
+#footer {
     background: #282B3D;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -227,7 +243,7 @@ footer ul li a i {
     color: #fff
 }
 
-footer ul li a i:hover {
+#footer ul li a i:hover {
     color: #e2e2e2
 }
 
@@ -236,20 +252,21 @@ footer p {
     font-size: 14px;
 }
 
-footer ul#share li>div {
+#footer ul#share li>div {
     display: inline-block
 }
 
-footer ul#share li div.lidiv {
+#footer ul#share li div.lidiv {
     height: 70px;
     width: 60px;
     position: relative
 }
 
-footer ul#share li div.lidiv>div {
+#footer ul#share li div.lidiv>div {
     position: absolute;
     left: 0
 }
+
 
 /*-----------------------------Media Queries-------------------------*/
 
