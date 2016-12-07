@@ -6,108 +6,22 @@
 <meta name="description" content="Audiomesh Description">
 <meta name="author" content="Matthew Nearents">
 
-<!-- Favicon -->
-<!-- favicon stuff -->
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
 <title>Audiomesh | Pricing</title>
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<!--<link rel="stylesheet" href="/css/owl.theme.css">-->
-<!--<link rel="stylesheet" href="/css/owl.carousel.css">-->
-<!--<link rel="stylesheet" href="/css/nivo-theme.css">-->
-<!--<link rel="stylesheet" href="/css/nivo-lightbox.css">-->
-
-<!-- Main Stylsheets -->
-<link rel="stylesheet" href="/css/style_dark.css">
-<link rel="stylesheet" href="/css/responsive.css">
-<link rel="stylesheet" href="/css/custom.css">
-
 <!-- my css file -->
-<link href="/css/audiomesh-min.css" rel="stylesheet">
+<link href="css/audiomesh.css" rel="stylesheet">
 
 <!-- Color Sheme CSS -->
-<link rel="stylesheet" href="/css/color.css">
-
-<!-- Google Font -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-
-<!-- font awesome -->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+<link rel="stylesheet" href="css/color.css">
 
 </head>
 
 <body id="pricingBody">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=852927288122622";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-
-<!-- begin nav -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span>Menu</span>
-			</button>
-			!-- begin logo in navigation --
-			<a class="navbar-brand" href="#intro">
-<!--				<img src="images/footer_logodark.png" alt="logo small">-->
-			</a>
-			!-- end logo in navigation --
-		</div>
-
-<!--
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav pull-right">
-				!-- begin navigation items --
-				<li class="current"><a href="#intro">Start</a></li>
-				<li><a href="#features">Features</a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#screenshots">Screenshots</a></li>
-				<li><a href="#packages">Packages</a></li>
-				<li><a href="#extra">Extra</a></li>
-				<li><a href="#video">Video</a></li>
-				<li><a href="#download">Download</a></li>
-				!-- end navigation items --
-			</ul>
-		</div>
--->
-	</div>
-</nav>
 <!-- end nav -->
 
 <!-- begin individual packages section -->
-<section class="packages" id="packages">
+<section id="packages">
 
 	<header id="header-bar">
 
@@ -142,12 +56,6 @@ Upgrade your plan securely below:</p>
 							<li>Unlimited Storage</li>
 						</ul>
 					</div>
-<!--
-					<a href="#" class="btn btn-custom-border">
-						<i class="fa fa-shopping-cart"></i>
-						Order
-					</a>
--->
 					<form action="/upgradeMonthly" method="POST" id="monthly">
 					  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_test_s9tenC34e5NQo1x3wO0XBVvy" data-amount="399" data-name="Audiomesh" data-description="$3.99 / mo" data-image="/128x128.png" data-locale="auto">
 					  </script>
@@ -197,12 +105,6 @@ Upgrade your plan securely below:</p>
 							<li>Unlimited Storage</li>
 						</ul>
 					</div>
-<!--
-					<a href="#" class="btn btn-custom">
-						<i class="fa fa-shopping-cart"></i>
-						Order
-					</a>
--->
 
 					<form action="/upgradeYearly" method="POST" id="yearly">
 					  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_test_s9tenC34e5NQo1x3wO0XBVvy" data-amount="2999" data-name="Audiomesh" data-description="$29.99 / year" data-image="/128x128.png" data-locale="auto">
@@ -218,129 +120,8 @@ Upgrade your plan securely below:</p>
 </section>
 <!-- end individual packages section -->
 
-<!-- begin group packages section -->
-<!--<section class="packages" id="groupPackages">
-
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-12">
-				<div class="section-head">
-					<h1>Band Prices</h1>
-					<p>Sign up 2 or more and get a better deal!</p>
-					<span class="underline"></span>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-
-			<div class="col-md-3 col-sm-6">
-
-				<div class="package">
-					<div class="package-name">
-						<h4>Basic</h4>
-					</div>
-					<span class="package-price">$5 / mo</span>
-					<div class="underline-small"></div>
-					<div class="package-features">
-						<ul>
-							<li>1 User</li>
-							<li>3 GB Storage</li>
-							<li>10 GB Bandwidth</li>
-							<li>Another Feature</li>
-						</ul>
-					</div>
-					<a href="#" class="btn btn-custom-border">
-						<i class="fa fa-shopping-cart"></i>
-						Order
-					</a>
-				</div>
-
-			</div>
-
-			<div class="col-md-3 col-sm-6">
-
-				<div class="package">
-					<div class="package-name">
-						<h4>Premium</h4>
-					</div>
-					<span class="package-price">$50 / mo</span>
-					<div class="underline-small"></div>
-					<div class="package-features">
-						<ul>
-							<li>5 User</li>
-							<li>10 GB Storage</li>
-							<li>50 GB Bandwidth</li>
-							<li>Another Feature</li>
-						</ul>
-					</div>
-					<a href="#" class="btn btn-custom-border">
-						<i class="fa fa-shopping-cart"></i>
-						Order
-					</a>
-				</div>
-
-			</div>
-
-			<div class="col-md-3 col-sm-6">
-
-				<div class="package featured">
-					<div class="package-name">
-						<h4>Excellent</h4>
-					</div>
-					<span class="package-price">$100 / mo</span>
-					<div class="underline-small"></div>
-					<div class="package-features">
-						<ul>
-							<li>15 User</li>
-							<li>50 GB Storage</li>
-							<li>100 GB Bandwidth</li>
-							<li>Another Feature</li>
-						</ul>
-					</div>
-					<a href="#" class="btn btn-custom">
-						<i class="fa fa-shopping-cart"></i>
-						Order
-					</a>
-				</div>
-
-			</div>
-
-			<div class="col-md-3 col-sm-6">
-
-				<div class="package">
-					<div class="package-name">
-						<h4>Diamond</h4>
-					</div>
-					<span class="package-price">$200 / mo</span>
-					<div class="underline-small"></div>
-					<div class="package-features">
-						<ul>
-							<li>Unlimited User</li>
-							<li>200 GB Storage</li>
-							<li>300 GB Bandwidth</li>
-							<li>Another Feature</li>
-						</ul>
-					</div>
-					<a href="#" class="btn btn-custom-border">
-						<i class="fa fa-shopping-cart"></i>
-						Order
-					</a>
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-</section> -->
-<!-- end group packages section -->
-
-
-
 <!-- begin footer section -->
-<footer id="footer" class="section">
+<footer id="footer">
 
 </footer>
 <!-- end footer section -->
@@ -349,22 +130,6 @@ Upgrade your plan securely below:</p>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 	<script src="modules/modules.js"></script>
 	<noscript>Your browser does not support JavaScript!</noscript>
-
-<!-- Javascripts -->
-<!--<script src="/js/jquery.js"></script>-->
-<script src="/js/bootstrap.min.js"></script>
-<!--<script src="/js/owl.carousel.min.js"></script>-->
-<!--<script src="/js/jquery.fitvids.js"></script>-->
-<!--<script src="/js/smoothScroll.js"></script>-->
-<!--<script src="/js/nivo-lightbox.min.js"></script>-->
-<!--<script src="/js/jquery.scrollTo.js"></script>-->
-<!--<script src="/js/jquery.nav.js"></script>-->
-<!--<script src="/js/wow.min.js"></script>-->
-<!--<script src="/js/jquery.jigowatt.js"></script>-->
-<!--<script src="/js/custom.js"></script>-->
-
-<!-- Custom Javascript -->
-<!--<script src="/js/main.js"></script>-->
-
-
-</body></html>
+	<script src="https://use.fontawesome.com/c912fd2264.js"></script>
+</body>
+</html>

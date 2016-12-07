@@ -1,0 +1,230 @@
+/* ------------------- INTRO SECTIONS ----------------------- */
+
+.intro div#keyPoints {
+ 	text-align: left;
+    line-height: 4;
+ 	font-size: 1em;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.intro div#keyPoints ul {
+ 	text-align: left;
+    line-height: 3;
+ 	font-size: 1.2em;
+    font-weight: 500;
+  
+
+}
+
+.intro div#keyPoints ul li {
+  list-style-type: disc;
+}
+.intro #signup-login-container {
+    padding: 25px 0;
+}
+
+.intro form input.textInput {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+		border: none;
+    width: 100%;
+  
+}
+
+.intro form input.button {
+    width: 100%;
+  	height: 44px;
+  	border: none;
+  	border-radius: 3px;
+    background: #F4BE1B;
+    color: #fff;
+  
+}
+
+.intro form input.button:hover {
+
+  background: #EEA420;
+  
+}
+
+div#theForms {
+ 	background: rgba(35, 31, 32, 0.7);
+    padding: 25px;
+    text-align: left;
+    min-height: 372px;
+}
+
+.intro div#theForms a {
+ 	font-weight: 700; 
+}
+
+div.orLogIn {
+
+  width: 50%;
+	display: inline-block;
+  text-align: center;
+  
+}
+
+div.orLogIn p {
+  padding-top: 5px;
+}
+
+
+div.joinButtonWrapper {
+
+  width: 50%;
+  float: left;
+}
+
+div.terms {
+  display: block;
+  clear: both;
+  margin-top: 10px;
+}
+
+div.terms p  {
+ 	font-size: .9em;
+  line-height: 1.5;
+}
+
+div.facebook a i {
+ 	margin-right: 10px; 
+}
+
+::-webkit-input-placeholder {
+   color: #a2a2a2;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #a2a2a2;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #a2a2a2;  
+}
+
+:-ms-input-placeholder {  
+   color: #a2a2a2;  
+}
+
+div.clear {
+
+    height: 50px;
+}
+
+div#login {
+    display: none;   
+}
+
+/* member section */
+
+div.member {
+ 	text-align: center;
+  color: #fff;
+}
+
+/* team Section */
+.team {
+    background-color: #222B30;
+}
+
+/* join or sign up section */
+#joinOrSign {
+    background: #F4BE1B;   
+}
+
+#joinOrSign .btn-custom {
+    border-color: #40535A;
+    background-color: #40535A;
+    color: #fff;
+}
+
+#joinOrSign .btn-custom:hover {
+    border-color: #222B30;
+    background-color: #222B30;
+    color: #fff;
+}
+
+#joinOrSign span.underline {
+    border-top-color: #40535A;  
+}
+
+
+
+
+
+/* *************** Pricing Page ************** */
+
+body#pricingBody div.tabs {
+ 	margin-top: 50px;
+}
+
+div#groupPricing {
+    display: none;   
+}
+
+div#groupPricingDisclaimer {
+    visibility: hidden;  
+    font-style: italic;
+    color: #e1e1e1;
+}
+
+.strike {
+    text-decoration: line-through;   
+}
+
+body#pricingBody .packages {
+    background: #222B30;
+}
+
+/* Packages Section */
+
+body#pricingBody h1, body#pricingBody p {
+    color: #000;   
+}
+
+body#pricingBody .nav-tabs > li > a {
+    color: #000;   
+}
+
+body#pricingBody .packages {
+    background: #fff;
+    text-align: center;
+}
+
+body#pricingBody .packages .package {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 30px 0;
+}
+
+body#pricingBody .packages .package.featured {
+    padding: 45px 0;
+    margin-top: -15px;
+}
+
+body#pricingBody div.package-name h4 {
+    color: #000;   
+}
+
+body#pricingBody .packages .package .package-price {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    color: #000;
+}
+
+body#pricingBody .packages .package .package-features ul li {
+    margin: 15px 0;
+    color: #000;
+}
+
+body#pricingBody .packages .package .btn {
+    margin-top: 10px;
+    width: 208px;
+    color: #000;
+}
