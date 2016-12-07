@@ -1,9 +1,8 @@
 @font-face {
     font-family: 'geometria_light';
-    src: url(../fonts/geometria-light-webfont.eot?#iefix) format("embedded-opentype");
+    src: url(geometria-light-webfont.woff);
     font-weight: normal;
     font-style: normal;
-
 }
 
 html {
@@ -29,14 +28,12 @@ html body {
   text-align: right;
 }
 
-/*
 #header-bar div.container {
      background: #fff;
   height: 100%;
   padding: 1px;
   text-align: left;
 }
-*/
 
 #header-bar div.container button {
      margin-left: 20px;
@@ -209,11 +206,11 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin: 0 20px
+    margin: 20px
 }
 
 footer ul li a i {
-    font-size: 30px;
+    font-size: 60px;
     color: #fff
 }
 
@@ -223,14 +220,7 @@ footer ul li a i:hover {
 
 footer p {
     margin-top: 50px;
-    font-size: 12px;
-    margin-bottom: 0
-}
-
-footer div#donateButton a img,
-footer div#donateButton input[type=image] {
-    width: 200px;
-    margin-top: 10px
+    font-size: 14px;
 }
 
 footer ul#share li>div {
