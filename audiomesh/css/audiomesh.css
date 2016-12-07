@@ -16,6 +16,8 @@ html body {
     font-family: geometria_light, Helvetica, Arial, sans-serif;
     font-size: 16px;
     position: relative;
+    padding-left: 3%;
+    padding-right:3%;
 }
 
 
@@ -202,8 +204,8 @@ div#bottom-signup {
 
 footer {
     background: #282B3D;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #fff;
     text-align: center
 }
