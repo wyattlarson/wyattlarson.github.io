@@ -97,6 +97,10 @@ html body div.jumbotron div.container h2 {
 	line-height: 3;
 }
 
+.left{
+	text-align: left;
+}
+
 div.section {
 	padding-top: 100px;
 	padding-bottom: 100px;
