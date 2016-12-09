@@ -313,8 +313,8 @@ body#pricingBody .packages .package .package-price {
 		top: 35%;
 		transform: translateY(-50%)
 	}
-	#about{
-		margin: inherit;
+	#logo-wrapper{
+		margin-top: 35;
 	}
 	#header-bar{
 		display: none
