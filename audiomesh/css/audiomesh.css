@@ -314,7 +314,7 @@ body#pricingBody .packages .package .package-price {
 		transform: translateY(-50%)
 	}
 	#about{
-		margin-top: 50px
+		margin: inherit;
 	}
 	#header-bar{
 		display: none
