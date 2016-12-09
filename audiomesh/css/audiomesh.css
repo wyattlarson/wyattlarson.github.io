@@ -43,6 +43,10 @@ p{
 	padding: 0 10% 0 10%
 }
 
+#whitebg{
+	background-color: white;
+}
+
 #header-bar div.container {
 	 background: #fff;
   height: 100%;
@@ -99,6 +103,7 @@ html body div.jumbotron div.container h2 {
 
 .left{
 	text-align: left;
+	line-height: 3
 }
 
 div.section {

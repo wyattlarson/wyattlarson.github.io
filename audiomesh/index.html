@@ -2,26 +2,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
-    <meta name="author" content="Matt Nearents">
+    <meta name="author" content="Wyatt Larson">
     <link rel="shortcut icon" href="images/wave.png">
     <title>Audiomesh | iPhone audio recording and sharing app</title>
       <!-- -->
 
       <!-- my css file -->
       <link href="css/audiomesh.css" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="css/materialize.min.css">
 
   </head>
 
   <body>
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=852927288122622";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 
 <div id="about" class="section">
 
@@ -161,7 +154,18 @@ worrying about file formats when sharing between iPhone and Android. Not to ment
             <p>You will receive an email once the app is on the app store. You may receive a status update or two, but no spam and I won't sell your email to anyone.</p>
 
 </div>
-
+<div class="fixed-action-btn horizontal click-to-toggle">
+    <a class="btn-floating btn-large red">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">Home</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">FAQ</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">$</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">Privacy</i></a></li>
+      <li><a class="btn-floating pink"><i class="material-icons">Download</i></a></li>
+    </ul>
+  </div>
 
 <footer id="footer" class="section">
 
@@ -178,6 +182,11 @@ worrying about file formats when sharing between iPhone and Android. Not to ment
       <!-- Place this tag in your head or just before your close body tag. -->
 <script src="https://apis.google.com/js/platform.js" async="" defer=""></script>
 <script src="https://use.fontawesome.com/c912fd2264.js"></script>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
 
 
 
