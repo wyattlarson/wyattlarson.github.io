@@ -306,16 +306,16 @@ body#pricingBody .packages .package .package-price {
 /*-----------------------------Media Queries-------------------------*/
 
 /*------------Mobile-------------*/
+
 @media (max-width: 768px) {
 	div#logo-container {
 		text-align: center;
 		position: relative;
 		top: 35%;
-		transform: translateY(-50%)
+		transform: translateY(-50%);
+		margin-top: 150px
 	}
-	#logo-wrapper{
-		margin-top: 35;
-	}
+
 	#header-bar{
 		display: none
 	}
@@ -323,7 +323,7 @@ body#pricingBody .packages .package .package-price {
 	.content h1,
 	div.container h1,
 	html body div.jumbotron div.container h1 {
-		font-size: 48px
+		font-size: 40px
 	}
 	.content h2,
 	div.container h2,
