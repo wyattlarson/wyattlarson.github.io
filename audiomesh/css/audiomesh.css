@@ -313,6 +313,9 @@ body#pricingBody .packages .package .package-price {
 		top: 35%;
 		transform: translateY(-50%)
 	}
+	#about{
+		margin-top: 50px
+	}
 	#header-bar{
 		display: none
 	}
