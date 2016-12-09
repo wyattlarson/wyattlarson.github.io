@@ -307,10 +307,10 @@ body#pricingBody .packages .package .package-price {
 @media (max-width: 768px) {
 	div#logo-container {
 		text-align: center;
-		position: relative;
-		top: 35%;
-		transform: translateY(-50%);
-		margin-top: 50px
+/*		position: relative;*/
+/*		top: 45%;*/
+/*		transform: translateY(-50%);*/
+/*		margin-top: 50px*/
 	}
 footer ul li {
 	display: inline;
@@ -323,7 +323,7 @@ footer ul li {
 	.content h1,
 	div.container h1,
 	html body div.jumbotron div.container h1 {
-		font-size: 40px
+		font-size: 30px
 	}
 	.content h2,
 	div.container h2,
