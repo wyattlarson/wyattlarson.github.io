@@ -306,13 +306,17 @@ body#pricingBody .packages .package .package-price {
 /*-----------------------------Media Queries-------------------------*/
 
 /*------------Mobile-------------*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	div#logo-container {
 		text-align: center;
 		position: relative;
 		top: 35%;
 		transform: translateY(-50%)
 	}
+	#header-bar{
+		display: none
+	}
+
 	.content h1,
 	div.container h1,
 	html body div.jumbotron div.container h1 {
@@ -326,14 +330,16 @@ body#pricingBody .packages .package .package-price {
 }
 
 /*---------------Desktop and Tablet-------------*/
-@media (max-width: 767px) {
+@media (min-width: 767px) {
 
 	#about {
 
 	padding: 50px 0 0;
 
 }
-
+	#menu1{
+		visibility: hidden;
+	}
 
 
 	div#about div#logo-container div.row div.form a.button {
