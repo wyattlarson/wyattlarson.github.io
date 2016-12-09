@@ -246,7 +246,7 @@ footer ul li {
 }
 
 footer ul li a i {
-	font-size: 60px;
+	font-size: 10px;
 	color: #fff
 }
 
@@ -269,10 +269,7 @@ footer p {
 	position: relative
 }
 
-#footer ul#share li div.lidiv>div {
-	position: absolute;
-	left: 0
-}
+
 
 /* Packages Section */
 
@@ -315,7 +312,10 @@ body#pricingBody .packages .package .package-price {
 		transform: translateY(-50%);
 		margin-top: 150px
 	}
-
+footer ul li {
+	display: inline;
+	margin: 2px
+}
 	#header-bar{
 		display: none
 	}
@@ -330,9 +330,6 @@ body#pricingBody .packages .package .package-price {
 	html body div.jumbotron div.container h2 {
 		font-size: 30px
 	}
-}
-footer ul li {
-	margin: 3px
 }
 
 /*---------------Desktop and Tablet-------------*/
