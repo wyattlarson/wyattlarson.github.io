@@ -159,33 +159,6 @@ div.section {
 	background: #F96B6B
 }
 
-#learn-more {
-	bottom: 10px;
-	color: #555;
-	cursor: pointer;
-	font-size: 1.5em;
-	left: 0;
-	position: absolute;
-	text-align: center;
-	width: 100%
-}
-
-#learn-more div {
-	margin: 0 auto;
-	position: relative;
-	width: 200px
-}
-
-#learn-more i {
-	font-size: 1.5em;
-	position: relative;
-	top: 3px
-}
-
-#learn-more:hover {
-	color: #F15856
-}
-
 div#solution {
 	background: #F15856;
 	color: #fff
