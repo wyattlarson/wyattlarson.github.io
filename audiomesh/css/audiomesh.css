@@ -310,7 +310,7 @@ body#pricingBody .packages .package .package-price {
 		position: relative;
 		top: 35%;
 		transform: translateY(-50%);
-		margin-top: 100px
+		margin-top: px
 	}
 footer ul li {
 	display: inline;
