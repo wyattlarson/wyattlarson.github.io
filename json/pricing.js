@@ -1,16 +1,14 @@
  $(function() {
 
-
-   var people = [];
-
-   $.getJSON('pricing.json', function(data) {
-       $.each(data.pricing, function(month, bi, year) {
-          var month = data.pricing.monthly;
-          var bi = data.pricing.biyearly;
-          var year = data.pricing.yearly;
-     console.log(month + bi + year)
-     });
-
-   });
-
+ $.ajax({
+    url: "https://wyattlarson.github.io/json/pricing.js"
+    , dataType: "jsonp"
+    , success: function (data) {
+      console.log(data);
+      var month = data.pricing.monthly;
+      var bi = data.pricing.biyearly;
+      var yearly = data.pricing.yearly;
+      console.log('month + bi + yearly);
+    }
+  });
 });
