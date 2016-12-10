@@ -2,7 +2,7 @@
 
 
  $.ajax({
-    url: "https://wyattlarson.github.io/modules/pricing.js"
+    url: "https://wyattlarson.github.io/modules/pricing.json"
     , dataType: "jsonp"
     , success: function (data) {
      console.log('data');
