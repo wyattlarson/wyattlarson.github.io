@@ -272,7 +272,10 @@
  color: #ff9800 !important
 }
 
-
+.btn:hover,
+.btn-large:hover {
+ background-color: #f7faff
+}
 
 .btn-floating {
  display: inline-block;
@@ -299,6 +302,7 @@
  font-size: 1.6rem;
  line-height: 40px
 }
+
 
 
 .btn-floating:before {
