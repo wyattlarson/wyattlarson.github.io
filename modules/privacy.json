@@ -1,0 +1,23 @@
+{
+  "info": [
+    "Basically, if you use our services, you give us the right to use the information you share with us. We collect all the basic information most other web sites collect (name, and email address). Our app allows you to record audio and share it with others. Your audio files will be stored on our backend. They will also be stored locally on your phone. Audiomesh reserves the right to move, modify, delete, or do anything else to your audio if necessary to provide our service (we don’t plan on messing with your audio files). Don’t worry, Audiomesh won’t sell any of your information or share it with third parties. We use it to identify you and provide you with the services you signed up for. We may also use your information to analyze site usage and improve our services. You want us to improve don’t you?"
+  ],
+  "links": [
+    "You may encounter links to other websites from our mobile app or site. We are not responsible for the actions of other web sites. Be aware of their privacy policies and how they collect and use your information. Again, we are not responsible for the information practices of any third parties. One such site is Stripe.com. When you upgrade your Audiomesh account to a paid plan, your credit card information is sent to, and processed by, Stripe servers. Audiomesh never sees your credit card or banking information. Audiomesh receives a token from Stripe that tells us we can update your account to a paid user. Other information from your Stripe account that Audiomesh has access to is your monthly plan and your Stripe user ID. Audiomesh reserves the right to manually update your Stripe account when necessary (for example, when you email us asking to make a modification, or if you delete your Audiomesh account). Those are just examples and there may be other reasons."
+  ],
+  "refunds": [
+    "Audiomesh may ask you to refer others to our products and services. We will ask you for the name, and email address of the person being referred. Audiomesh will send them one email inviting them to visit the site or make a purchase. We may store their information but we will not share it or send them additional email. When you share an audio file with a non-Audiomesh user, they will receive one email asking them to sign up for an Audiomesh account in order to view the files you shared."
+  ],
+  "children": [
+    "Our websites are not designed for children under the age of 18. We don’t knowingly attempt to solicit or receive any information from minors."
+  ],
+  "access": [
+    "For Legal Reasons Audiomesh may be required to share your information as required by law, an investigation, or a legal process such as a court order or subpoena. In Case of a Sale of Business Your information may be transferred in connection with a sale, merger, transfer, exchange, or other disposition (whether of assets, stock or otherwise) of all or a portion of Audiomesh."
+  ],
+  "choice": [
+    "Don’t like our emails? Unsubscribe by sending us an email with your request. You might still get some service announcement updates. But only if it’s really really important."
+  ],
+  "contactUs": [
+    "If you have questions, comments, or feedback, you may contact us at audiomeshapp@gmail.com."
+  ]
+}
