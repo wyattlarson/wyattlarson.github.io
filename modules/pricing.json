@@ -1,7 +1,13 @@
 {
   "pricing": {
-    "monthly": "b",
-    "biyearly": "d",
-    "yearly": "f"
+    "biyearly": [
+      "$18.99 / half year"
+    ],
+    "yearly": [
+      "$29.99 / year"
+    ],
+    "monthly": [
+      "$3.99 / mo"
+    ]
   }
 }
