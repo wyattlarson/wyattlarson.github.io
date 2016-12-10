@@ -17,6 +17,9 @@ body{
     flex-flow: column;
     background-color: #f9fbff;
 }
+#longList li {
+    text-align: left;
+}
 .row {
     display: flex;
     flex-flow: row;
