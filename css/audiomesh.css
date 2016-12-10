@@ -253,6 +253,9 @@ body#pricingBody .packages .package .package-price {
 .white{
 	background-color: white;
 }
+#white{
+	background-color: white;
+}
 
 /*-----------------------------Media Queries-------------------------*/
 
