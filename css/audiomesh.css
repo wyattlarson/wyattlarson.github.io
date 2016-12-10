@@ -51,25 +51,6 @@ p{
 	padding: 0 10% 0 10%
 }
 
-#whitebg{
-	background-color: white;
-}
-
-#header-bar div.container {
-	 background: #fff;
-  height: 100%;
-  padding: 1px;
-
-}
-
-#header-bar div.container button {
-	 margin-left: 20px;
-}
-
-#header-bar button {
-	border-color: #2fba7e;
-  background: #43dd9e;
-}
 
 #header-bar a.btn {
 	 color: #2fba7e;
@@ -171,15 +152,6 @@ div#solution {
 	background: #F15856;
 	color: #fff
 }
-
-div#solution div#waveImg img {
-	width: 80px
-}
-
-div#solution div#waveImg {
-	margin-bottom: 40px
-}
-
 div#solution h1 {
 	color: #fff
 }
@@ -231,10 +203,9 @@ footer ul li a i {
 	color: #fff
 }
 
-#footer ul li a i:hover {
+#footer ul li a i:hover, #footer ul li a:hover {
 	color: #e2e2e2
 }
-
 footer p {
 	margin-top: 50px;
 	font-size: 14px;
@@ -279,7 +250,9 @@ body#pricingBody .packages .package .package-price {
 	color: #000;
 	list-style: none;
 }
-
+.white{
+	background-color: white;
+}
 
 /*-----------------------------Media Queries-------------------------*/
 
