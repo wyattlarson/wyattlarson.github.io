@@ -35,8 +35,16 @@ html body {
 	padding-right: 10px;
 }
 
+#privacyDown{
+	margin-top: 40px;
+}
+
 a {
 	text-decoration: none;
+}
+
+#footerLinks li a{
+	color: white;
 }
 
 p{
