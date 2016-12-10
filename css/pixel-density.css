@@ -20,6 +20,9 @@ body{
 #longList li {
     text-align: left;
 }
+#persona ul li{
+    list-style: none;
+}
 .row {
     display: flex;
     flex-flow: row;
