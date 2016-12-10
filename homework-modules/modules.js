@@ -1,7 +1,7 @@
 $(function() {
-$("#header").load("header.html");
+$("#header").load("homework-modules/header.html");
 });
 
 $(function() {
-$("#footer").load("footer.html");
+$("#footer").load("homework-modules/footer.html");
 });
