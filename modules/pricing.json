@@ -1,5 +1,4 @@
 {
-  "pricing": {
     "biyearly": [
       "$18.99 / half year"
     ],
@@ -9,5 +8,5 @@
     "monthly": [
       "$3.99 / mo"
     ]
-  }
+
 }
