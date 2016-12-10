@@ -1,0 +1,7 @@
+{
+  "pricing": {
+    "monthly": "b",
+    "biyearly": "d",
+    "yearly": "f"
+  }
+}
