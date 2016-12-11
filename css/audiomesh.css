@@ -1,228 +1,228 @@
 @font-face {
-	font-family: 'geometria_light';
-	src: url(geometria-light-webfont.woff);
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'geometria_light';
+    src: url(geometria-light-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
-	height: 100%;
-	width: 100%
+    height: 100%;
+    width: 100%
 }
 html body {
-	background-color: #f2f2f2;
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
-	font-family: geometria_light, Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	position: relative;
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: geometria_light, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    position: relative;
 }
 
 #header-bar {
-	 position: fixed;
+     position: fixed;
   top: 0;
   width:100%;
   height: 55px;
   text-align: center;
-	background-color: #fff;
-	opacity: .94;
-	z-index: 1;
-	font-size: 35px;
+    background-color: #fff;
+    opacity: .94;
+    z-index: 1;
+    font-size: 35px;
 }
 #header-bar a {
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #privacyDown{
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #footerLinks li a{
-	color: white;
+    color: white;
 }
 
 p{
-	padding: 0 10% 0 10%
+    padding: 0 10% 0 10%
 }
 
 
 #header-bar a.btn {
-	 color: #2fba7e;
+     color: #2fba7e;
 }
 
 .content h1,
 div.container h1,
 html body div.jumbotron div.container h1 {
-	color: #555;
-	font-family: geometria_light, Helvetica-Neue, Helvetica, Arial, sans-serif;
-	font-size: 48px;
-	margin-bottom: 2px;
-	margin-top: 0;
-	text-align: center;
+    color: #555;
+    font-family: geometria_light, Helvetica-Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: 2px;
+    margin-top: 0;
+    text-align: center;
 }
 
 .content h2,
 div.container h2,
 html body div.jumbotron div.container h2 {
-	color: #555;
-	font-family: geometria_light, Helvetica-Neue, Helvetica, Arial, sans-serif;
-	font-size: 30px;
-	margin-bottom: 25px;
-	margin-top: 0;
-	text-align: center;
+    color: #555;
+    font-family: geometria_light, Helvetica-Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-align: center;
 }
 
-#faqsh1{
-	margin-top: 75px;
-}
+
 
 .center{
-	text-align: center;
+    text-align: center;
 }
 
 .row{
-	line-height: 3;
+    line-height: 3;
 }
 
 .left{
-	text-align: left;
-	line-height: 3
+    text-align: left;
+    line-height: 3
 }
 
 div.section {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 #about {
-	background: #fff;
-	color: #888;
+    background: #fff;
+    color: #888;
   min-height: 600px;
-	height: 100vh;
-	margin-bottom: 0;
-	padding: 100px 0  0;
-	position: relative;
-	width: 100%
+    height: 100vh;
+    margin-bottom: 0;
+    padding: 100px 0  0;
+    position: relative;
+    width: 100%
 }
 
 #about span img {
-	width: 60px;
-	display: inline-block;
-	margin-top: -24px;
-	margin-right: 2px
+    width: 60px;
+    display: inline-block;
+    margin-top: -24px;
+    margin-right: 2px
 }
 
 #about h1 {
-	display: inline-block;
-	letter-spacing: 2px
+    display: inline-block;
+    letter-spacing: 2px
 }
 
 #logo-container,
 .formwrap {
-	text-align: center
+    text-align: center
 }
 
 .form {
-	text-align: center;
-	padding: 20px
+    text-align: center;
+    padding: 20px
 }
 
 .form a.emailButton {
-	background: #F15856;
-	border: transparent;
-	color: #fff;
-	padding: 15px 50px;
-	width: 150px;
-	border-radius: 0
+    background: #F15856;
+    border: transparent;
+    color: #fff;
+    padding: 15px 50px;
+    width: 150px;
+    border-radius: 0
 }
 
 .form .emailButton:hover {
-	text-decoration: none;
-	background: #F96B6B
+    text-decoration: none;
+    background: #F96B6B
 }
 
 div#solution {
-	background: #F15856;
-	color: #fff
+    background: #F15856;
+    color: #fff
 }
 div#solution h1 {
-	color: #fff
+    color: #fff
 }
 
 div#imgdiv {
-	background: #fff
+    background: #fff
 }
 
 div#imgdiv div.row img {
-	max-width: 100%
+    max-width: 100%
 }
 
 div#me img {
-	width: 250px;
-	max-width: 100%;
-	margin-bottom: 20px
+    width: 250px;
+    max-width: 100%;
+    margin-bottom: 20px
 }
 
 div#me p {
-	margin-bottom: 20px
+    margin-bottom: 20px
 }
 
 div#bottom-signup {
-	background: #fff;
+    background: #fff;
 }
 .featured-video {
-	width: 40%;
+    width: 30%;
+    height: auto;
+
 }
 
 
 #footer {
-	background: #282B3D;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: #fff;
-	text-align: center
+    background: #282B3D;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center
 }
 
 footer ul {
-	text-align: center;
-	list-style-type: none;
-	padding: 0;
-	margin-bottom: 50px
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px
 }
 
 footer ul li {
-	display: inline;
-	margin: 5px
+    display: inline;
+    margin: 5px
 }
 
 footer ul li a i {
-	font-size: 10px;
-	color: #fff
+    font-size: 10px;
+    color: #fff
 }
 
 #footer ul li a i:hover, #footer ul li a:hover {
-	color: #e2e2e2
+    color: #e2e2e2
 }
 footer p {
-	margin-top: 50px;
-	font-size: 14px;
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 #footer ul#share li>div {
-	display: inline-block
+    display: inline-block
 }
 
 #footer ul#share li div.lidiv {
-	height: 70px;
-	width: 60px;
-	position: relative
+    height: 70px;
+    width: 60px;
+    position: relative
 }
 
 
@@ -230,113 +230,136 @@ footer p {
 /* Packages Section */
 
 .packages {
-	display: block;
+    display: block;
 }
 
 body#pricingBody .packages {
-	background: #fff;
-	text-align: center;
+    background: #fff;
+    text-align: center;
 }
 
 body#pricingBody .packages .package {
-	border: 1px solid #e1e1e1;
-	border-radius: 4px;
-	background-color: transparent;
-	padding: 30px 0;
-	list-style: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 30px 0;
+    list-style: none;
 }
 
 
 body#pricingBody .packages .package .package-price {
-	font-size: 30px;
-	font-weight: 300;
-	display: block;
-	color: #000;
-	list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    color: #000;
+    list-style: none;
 }
 .white{
-	background-color: white;
+    background-color: white;
 }
 #white{
-	background-color: white;
+    background-color: white;
 }
 
 /*-----------------------------Media Queries-------------------------*/
 
 /*------------Mobile-------------*/
 
-@media (max-width: 768px) {
-	div#logo-container {
-		text-align: center;
+@media (max-width: 500px) {
+    div#logo-container {
+        text-align: center;
 /*		position: relative;*/
 /*		top: 45%;*/
 /*		transform: translateY(-50%);*/
 /*		margin-top: 50px*/
-	}
-	.featured-video {
-	width: 80%;
+    }
+    .featured-video {
+    width: 80%;
 }
 footer ul li {
-	display: inline;
-	margin: 2px
+    display: inline;
+    margin: 2px
 }
-	#header-bar{
-		display: none
-	}
+    #header-bar{
+        display: none
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+    }
+    .material-icons{
+        text-decoration: none;
+        list-style: none;
+        outline-style: none;
+        list-style-position: none
 
-	.content h1,
-	div.container h1,
-	html body div.jumbotron div.container h1 {
-		font-size: 30px
-	}
-	.content h2,
-	div.container h2,
-	html body div.jumbotron div.container h2 {
-		font-size: 30px
-	}
+    }
+
+    .content h1,
+    div.container h1,
+    html body div.jumbotron div.container h1 {
+        font-size: 30px
+    }
+    .content h2,
+    div.container h2,
+    html body div.jumbotron div.container h2 {
+        font-size: 30px
+    }
 }
 
-/*---------------Desktop and Tablet-------------*/
-@media (min-width: 767px) {
 
-	#about {
-
-	padding: 50px 0 0;
+/*----------------Tablet_______________________*/
+@media (min-width: 500px) and (max-width:800px){
+    #faqsh1{
+    margin-top: 75px;
+}
 
 }
-	#menu1{
-		visibility: hidden;
-	}
+
+/*---------------Desktop-------------*/
+@media (min-width: 800px) {
+
+    #about {
+
+    padding: 50px 0 0;
+
+}
+    #faqsh1{
+    margin-top: 75px;
+}
+    #menu1{
+        visibility: hidden;
+    }
 
 
-	div#about div#logo-container div.row div.form a.button {
+    div#about div#logo-container div.row div.form a.button {
 
-	  padding-left: 15px;
-	  padding-right: 15px;
-	  font-size: 14px;
-	}
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 14px;
+    }
 
-	footer ul#social li {
-		margin: 0 10px
-	}
-	.content h1,
-	div.container h1,
-	html body div.jumbotron div.container h1 {
-		font-size: 38px!important
-	}
-	.content h2,
-	div.container h2,
-	html body div.jumbotron div.container h2 {
-		font-size: 20px
-	}
-	div#about span img {
-		width: 45px;
-		margin-top: -20px
-	}
-	div#logo-container {
-		text-align: center;
-		position: relative;
-		top: 10%;
-		transform: translateY(-15%)
-	}
+    footer ul#social li {
+        margin: 0 10px
+    }
+    .content h1,
+    div.container h1,
+    html body div.jumbotron div.container h1 {
+        font-size: 38px!important
+    }
+    .content h2,
+    div.container h2,
+    html body div.jumbotron div.container h2 {
+        font-size: 20px
+    }
+    div#about span img {
+        width: 45px;
+        margin-top: -20px
+    }
+    div#logo-container {
+        text-align: center;
+        position: relative;
+        top: 10%;
+        transform: translateY(-15%)
+    }
 }

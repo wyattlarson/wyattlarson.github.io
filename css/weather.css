@@ -251,6 +251,9 @@ ul {
      .content {
                     text-align: center;
                 }
+            #featured-video{
+                width: 50%px
+            }
         form {
                     align-content: center;
                 }

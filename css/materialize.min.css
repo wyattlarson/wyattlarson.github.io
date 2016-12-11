@@ -336,7 +336,7 @@ button.btn-floating {
 }
 
 .fixed-action-btn.horizontal {
- padding: 0 0 0 15px
+ padding: 0 0 0 5px
 }
 
 .fixed-action-btn.horizontal ul {
@@ -352,7 +352,7 @@ button.btn-floating {
 
 .fixed-action-btn.horizontal ul li {
  display: inline-block;
- margin: 15px 15px 0 0
+ margin: 5px 5px 0 0
 }
 .fixed-action-btn.toolbar ul li {
  -webkit-flex: 1;
