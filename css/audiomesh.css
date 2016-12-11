@@ -162,7 +162,7 @@ div#imgdiv div.row img {
     max-width: 100%
 }
 
-div#me img {
+div#me picture img {
     width: 250px;
     max-width: 100%;
     margin-bottom: 20px
@@ -313,6 +313,9 @@ footer ul li {
     #faqsh1{
     margin-top: 75px;
 }
+    #header-bar{
+        display: none
+    }
 
 }
 
