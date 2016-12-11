@@ -177,6 +177,10 @@ div#me p {
 div#bottom-signup {
 	background: #fff;
 }
+.featured-video {
+	width: 40%;
+}
+
 
 #footer {
 	background: #282B3D;
@@ -269,6 +273,9 @@ body#pricingBody .packages .package .package-price {
 /*		transform: translateY(-50%);*/
 /*		margin-top: 50px*/
 	}
+	.featured-video {
+	width: 80%;
+}
 footer ul li {
 	display: inline;
 	margin: 2px
