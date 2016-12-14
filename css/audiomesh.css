@@ -176,7 +176,7 @@ div#bottom-signup {
     background: #fff;
 }
 .featured-video {
-    width: 30%;
+    width: 65%;
     height: auto;
 
 }
@@ -274,7 +274,7 @@ body#pricingBody .packages .package .package-price {
 /*		margin-top: 50px*/
     }
     .featured-video {
-    width: 80%;
+    width: 100%;
 }
 footer ul li {
     display: inline;
